@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* background-image: linear-gradient(
+    45deg,
+    rgba(235, 235, 56, 0.485),
+    rgb(87, 255, 255)
+  ); */
+  background-color: rgb(171, 238, 212);
+  padding: 1rem;
+}
+.container {
+  max-width: 60rem;
+  width: 100%;
+  max-height: 30rem;
+  height: 100%;
+  /* border: 1px solid black; */
+  padding: 1rem;
+  overflow: scroll;
+  margin-top: 5rem;
+  border-radius: 5px;
+}
+.to-do-list-area {
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.input-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.add-item {
+  padding: 0.5em;
+}
+.add-item:hover,
+.add-item:focus {
+  background-color: rgb(158, 222, 209);
+}
+input {
+  height: 2rem;
+  border-radius: 5px;
+  border: 1px solid aqua;
+  text-indent: 1rem;
+  outline: none;
+}
+input:focus {
+  border: 2px solid rgb(1, 172, 172);
+}
+ul {
+  list-style-type: none;
+}
+.list-item {
+  background-color: rgba(50, 170, 130, 0.988);
+  padding: 0.2rem 0.5rem;
+  margin: 0.2rem 0;
+  border-radius: 5px;
+}
